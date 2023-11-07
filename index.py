@@ -45,6 +45,7 @@ def account():
         return result
     else:
         return render_template("account.html")
+        
 @app.route("/read")
 def read():
     Result = ""
