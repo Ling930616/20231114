@@ -4,7 +4,7 @@ cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred)
 
 from flask import Flask, render_template, request
-from datetime import datetime
+from datetime import datetime,timezone,timedelta
 app = Flask(__name__)
 
 @app.route("/")
@@ -49,10 +49,11 @@ def account():
 def read():
     Result = ""
     db = firestore.client()
-    collection_ref = db.collection("靜宜資管")    
-    docs = collection_ref.get()    
-    for doc in docs:         
-       Result += "文件內容：{}".format(doc.to_dict()) + "<br>"    
+    collection_ref = db.collection("人選之人-造浪者") 
+    docs = collection_ref.order_by("birth", direction=firestore.Query.DESCENDING).get()    
+    for doc in docs:
+        x = doc.to_dict()         
+        Result += "演員:{},劇中角色是{},出生於{}".format(x["name"],x["role"],x["birth"]) + "<br>"    
     return Result
 
 #if __name__ == "__main__":
