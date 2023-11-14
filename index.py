@@ -96,7 +96,7 @@ def query():
     else:
         return render_template("searchbk.html")
 
-#if __name__ == "main":
- #   app.run(debug=True)
+if __name__ == "main":
+    app.run(debug=True)
 
 
