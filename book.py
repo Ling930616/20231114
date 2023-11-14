@@ -34,7 +34,7 @@ docs = [
   "title": "靜宜求學趣",
   "author": "朱芷伶",
   "cover": "https://www.pu.edu.tw/var/file/0/1000/img/43/builda07-800.jpg",
-  "url": "=https://www.pu.edu.tw/",
+  "url": "https://www.pu.edu.tw/",
   "anniversary": 19
 }
 
