@@ -18,8 +18,7 @@ def index():
     homepage += "<a href=/account>網頁表單輸入帳密傳值</a><br>"
     homepage += "<br><a href=/read>人選之人演員查詢</a><br>"
     homepage += "<br><a href=/book>精選圖書列表</a><br>"
-    homepage += "<br><a href=/searchbk>搜尋</a><br>"
-
+    homepage += "<br><a href=/query>搜尋</a><br>"
 
     return homepage
 
