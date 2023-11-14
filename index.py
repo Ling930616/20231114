@@ -18,6 +18,8 @@ def index():
     homepage += "<a href=/account>網頁表單輸入帳密傳值</a><br>"
     homepage += "<br><a href=/read>人選之人演員查詢</a><br>"
     homepage += "<br><a href=/book>精選圖書列表</a><br>"
+    homepage += "<br><a href=/searchbk>搜尋</a><br>"
+
 
     return homepage
 
@@ -79,7 +81,7 @@ def query():
     if request.method == "POST":
         keyword = request.form["keyword"]
         result = "您輸入的關鍵字是：" + keyword 
-        return result
+    return result
     else:
         return render_template("searchbk.html")
 
