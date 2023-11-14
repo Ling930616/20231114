@@ -92,11 +92,11 @@ def query():
                 Result += "作者：" + bk["author"] + "<br>"
                 Result += str(bk["anniversary"]) + "週年紀念版<br>"
                 Result += "<img src=" + bk["cover"] +" ></img><br><br>"
-    return result
+        return Result
     else:
         return render_template("searchbk.html")
 
-if __name__ == "main":
+if __name__ == "__main__":
     app.run(debug=True)
 
 
