@@ -69,10 +69,9 @@ def book():
     for doc in docs: 
         bk = doc.to_dict()
         Result += "書名：" + bk["title"] + "<br>"
-        Result += "作者：" + bk["aauthor"] + "<br>"
+        Result += "作者：" + bk["author"] + "<br>"
         Result += str(bk["anniversary"]) + "週年紀念版<br>"
         Result += "<img src=" + bk["cover"] +" ></img><br><br>"
-
     return Result
 
 #if __name__ == "main":
