@@ -87,7 +87,7 @@ def query():
         docs = collection_ref.get()
         for doc in docs: 
             bk = doc.to_dict()  
-            if keyword in bk["author"]:
+            if keyword in bk["title"]:
                 Result += "書名：<a href=" + bk["url"] + ">" +bk["title"] + "</a><br>"
                 Result += "作者：" + bk["author"] + "<br>"
                 Result += str(bk["anniversary"]) + "週年紀念版<br>"
