@@ -163,9 +163,7 @@ def searchmv():
             info += "片長：" + doc.to_dict()["showLength"] + " 分鐘<br>" 
             info += "上映日期：" + doc.to_dict()["showDate"] + "<br><br>"           
     return info
-    else:
-        return render_template("searchmv.html")
-
+    
     
 
 if __name__ == "__main__":
