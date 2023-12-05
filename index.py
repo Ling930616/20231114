@@ -163,7 +163,8 @@ def searchmv():
             if MovieTitle in doc.to_dict()["title"]: 
                 info += "片名：" + doc.to_dict()["title"] + "<br>" 
                 info += "影片介紹：<a href=" + doc.to_dict()["hyperlink"] + ">" + doc.to_dict()["hyperlink"] + "</a><br>"
-                info += "片長：" + doc.to_dict()["showLength"] + " 分鐘<br>" 
+                info += "片長：" + doc.to_dict()["showLength"] + " 分鐘<br>"
+                info += "片級：" + doc.to_dict()["rate"] + "<br>" 
                 info += "上映日期：" + doc.to_dict()["showDate"] + "<br><br>"           
         return info
     else:
