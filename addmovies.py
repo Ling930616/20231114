@@ -12,6 +12,7 @@ docs = [
       "hyperlink": "http://www.atmovies.com.tw/movie/fsus15799866/",
       "showDate": "2023/12/01",
       "showLength": "120分鐘",
+      "rate": "",
       "lastUpdate": "2023/11/25 01:09"
 },
 
@@ -21,6 +22,7 @@ docs = [
       "hyperlink": "http://www.atmovies.com.tw/movie/fwen26166392/",
       "showDate": "2023/12/06",
       "showLength": "120分鐘",
+      "rate": "普遍級",
       "lastUpdate": "2023/11/25 01:09"
 },
 
@@ -30,6 +32,7 @@ docs = [
       "hyperlink": "http://www.atmovies.com.tw/movie/fden17009348/",
       "showDate": "2023/12/15",
       "showLength": "113分鐘",
+      "rate": "",
       "lastUpdate": "2023/11/25 01:10"
 },
 
@@ -39,6 +42,7 @@ docs = [
       "hyperlink": "http://www.atmovies.com.tw/movie/faen39663764/",
       "showDate": "2023/12/20",
       "showLength": "",
+      "rate": "",
       "lastUpdate": "2023/11/25 01:10"
 },
 
@@ -48,6 +52,7 @@ docs = [
       "hyperlink": "http://www.atmovies.com.tw/movie/fwen11304740/",
       "showDate": "2023/12/29",
       "showLength": "",
+      "rate": "",
       "lastUpdate": "2023/11/25 01:11"
 },
 
@@ -57,6 +62,7 @@ docs = [
       "hyperlink": "http://www.atmovies.com.tw/movie/fgth14099796/",
       "showDate": "2023/12/30",
       "showLength": "",
+      "rate": "",
       "lastUpdate": "2023/11/25 01:11"
 },
 
@@ -66,6 +72,7 @@ docs = [
       "hyperlink": "http://www.atmovies.com.tw/movie/faen15009428/",
       "showDate": "2024/02/02",
       "showLength": "",
+      "rate": "",
       "lastUpdate": "2023/11/25 01:09"
 },
 
@@ -75,6 +82,7 @@ docs = [
       "hyperlink": "http://www.atmovies.com.tw/movie/fmen56495056/",
       "showDate": "2024/02/08",
       "showLength": "",
+      "rate": "",
       "lastUpdate": "2023/11/25 01:10"
 },
 
@@ -84,6 +92,7 @@ docs = [
       "hyperlink": "http://www.atmovies.com.tw/movie/feen84900148/#google_vignette",
       "showDate": "2024/03/01",
       "showLength": "",
+      "rate": "",
       "lastUpdate": "2023/11/25 01:10"
 },
 
@@ -93,6 +102,7 @@ docs = [
       "hyperlink": "http://www.atmovies.com.tw/movie/fgen21235248/",
       "showDate": "2024/04/03",
       "showLength": "",
+      "rate": "",
       "lastUpdate": "2023/11/25 01:10"
 },
 
@@ -102,6 +112,7 @@ docs = [
       "hyperlink": "http://www.atmovies.com.tw/movie/fken21692408/",
       "showDate": "2024/04/05",
       "showLength": "",
+      "rate": "",
       "lastUpdate": "2023/11/25 01:10"
 },
 
@@ -111,6 +122,7 @@ docs = [
       "hyperlink": "http://www.atmovies.com.tw/movie/fcen16426418/",
       "showDate": "2024/04/26",
       "showLength": "",
+      "rate": "",
       "lastUpdate": "2023/11/25 01:10"
 },
 
@@ -120,6 +132,7 @@ docs = [
       "hyperlink": "http://www.atmovies.com.tw/movie/ffen41684562/",
       "showDate": "2024/05/01",
       "showLength": "",
+      "rate": "",
       "lastUpdate": "2023/11/25 01:10"
 },
 
@@ -129,6 +142,7 @@ docs = [
       "hyperlink": "http://www.atmovies.com.tw/movie/fken11389872/",
       "showDate": "2024/05/24",
       "showLength": "",
+      "rate": "",
       "lastUpdate": "2023/11/25 01:10"
 },
 
@@ -138,6 +152,7 @@ docs = [
       "hyperlink": "http://www.atmovies.com.tw/movie/fien22022452/",
       "showDate": "2024/06/14",
       "showLength": "",
+      "rate": "",
       "lastUpdate": "2023/11/25 01:10"
 },
 
@@ -147,6 +162,7 @@ docs = [
       "hyperlink": "http://www.atmovies.com.tw/movie/fken58790086/",
       "showDate": "2024/08/28",
       "showLength": "",
+      "rate": "",
       "lastUpdate": "2023/11/25 01:10"
 }
 ]
