@@ -257,7 +257,7 @@ def ramen():
     #info = "動作：" + action + "； 查詢內容：" + msg
     #if (action == "rateChoice"):
         #rate =  req.get("queryResult").get("parameters").get("rate")
-    info = "這裡是點餐小幫手，您選擇的餐點是：" + order +"，相關電影:\n"
+    info = "這裡是點餐小幫手，您選擇的餐點是：" + order +"，價格:\n"
     collection_ref = db.collection("拉麵MENU")
     docs = collection_ref.get()
     result = ""
