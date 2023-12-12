@@ -258,15 +258,15 @@ def ramen():
     #if (action == "rateChoice"):
         #rate =  req.get("queryResult").get("parameters").get("rate")
         #info = "我是朱芷伶開發的電影機器人，您選擇的電影分級是：" + rate +"，相關電影:\n"
-        collection_ref = db.collection("拉麵MENU")
-        docs = collection_ref.get()
-        result = ""
-        for doc in docs:
-            dict = doc.to_dict()
-            #if rate in dict["rate"]:
-                result += "名稱:" + dict["名稱"] + "\n"
-                result += "價格:" + dict["價格"] + "\n\n"
-        info += result
+    collection_ref = db.collection("拉麵MENU")
+    docs = collection_ref.get()
+    result = ""
+    for doc in docs:
+        dict = doc.to_dict()
+        #if rate in dict["rate"]:
+        result += "名稱:" + dict["名稱"] + "\n"
+        result += "價格:" + dict["價格"] + "\n\n"
+    info += result
     return make_response(jsonify({"fulfillmentText": info}))
 
 if __name__ == "__main__":
